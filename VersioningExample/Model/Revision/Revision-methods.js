@@ -1,0 +1,1 @@
+﻿model.Revision.methods.makeRevision = function(entity) {	// used by each datastore class to create a revision entity.	if(entity.isModified()){		debugger;		var data = entity.getModifiedAttributes();		var className = entity.getDataClass().getName(); 		new ds.Revision({snapshotDate: new Date(), className: className, data: data}).save();	}};

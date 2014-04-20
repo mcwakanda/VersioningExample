@@ -1,0 +1,1 @@
+﻿//Create a new personvar person = new ds.Person({firstName: "Gary", lastName: "Weldon"});person.save();//Modify that personperson.lastName = "Trillent";person.save(); //revision created//Againperson.firstName = "Barry";person.save();person;

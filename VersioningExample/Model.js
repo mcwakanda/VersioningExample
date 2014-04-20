@@ -1,0 +1,1 @@
+﻿include("./Model/Revision/Revision-methods.js");include("./Model/Person/Person-events.js");include("./Model/Company/Company-events.js");include("./Model/Product/Product-events.js");

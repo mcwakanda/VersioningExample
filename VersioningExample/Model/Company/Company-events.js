@@ -1,0 +1,1 @@
+﻿model.Company.events.save = function() {	var revisions = require('revisions.js');	revisions.addRevision(this, "revisions");};
